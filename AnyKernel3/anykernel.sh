@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Rashoumon Kernel 1.0 by Cexary
+kernel.string=Adrenaline Kernel by Hanamizaki
 do.devicecheck=0
 do.modules=0
 do.systemless=1
@@ -28,7 +28,8 @@ no_block_display=1;
 
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh;
-ui_print " " "Flashing KernelSU version. You have been warned about security implications.";
+ui_print " " "FLAVOUR: KSU";
+ui_print " " "Beware of the security implications of KernelSU";
 
 # boot install
 split_boot;

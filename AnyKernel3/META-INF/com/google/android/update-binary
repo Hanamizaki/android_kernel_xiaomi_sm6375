@@ -495,7 +495,7 @@ do_devicecheck;
 do_versioncheck;
 do_levelcheck;
 
-ui_print "Installing...";
+ui_print "Pouring Adrenaline Directly Into The System...";
 # hack to maintain support for anykernel.sh files that weren't updated correctly along with the AK core
 CORE=$(grep -oE 'ak.*core.sh' anykernel.sh);
 [ -f tools/$CORE ] || ln -s $AKHOME/tools/ak*-core.sh $AKHOME/tools/$CORE;
@@ -514,6 +514,6 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
   cleanup;
 fi;
 
-ui_print " " "Done!";
+ui_print " " "Adrenaline Rush Initiated!";
 export PATH="$OLD_PATH";
 unset OLD_PATH OUTFD ZIPFILE;
